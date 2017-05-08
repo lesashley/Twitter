@@ -255,3 +255,104 @@ a{
 div.item{
   margin-bottom: 20px;
 }
+/*Section center*/
+.status{
+  background-color: #F9EAEF;
+  padding: 10px 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+}
+.status img{
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin: 0 8px;
+  margin-top: 3px;
+}
+.text-status{
+  background-color: white;
+  width: 490px;
+  height: 38px;
+  float: right;
+  position: relative;
+  padding: 8px;
+  border: 1px solid #F2CCD8;
+  border-radius: 5px;
+}
+.text-status input{
+  height: 32px;
+  position: absolute;
+  top: 2px;
+  width: 450px;
+  border: none;
+}
+.text-status input::placeholder{
+  color: #CC3366;
+  font-size: 15px;
+}
+.text-status button{
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #CC3366;
+  opacity: 0.8;
+}
+.icon-camera::before{
+  content: "\f110";
+}
+.content-tweet{
+  margin: 10px 0;
+}
+.tweet{
+  padding: 10px 0;
+  border: 1px solid #e1e8ed;
+}
+.content-tweet img{
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-right: 10px;
+}
+.text-tweet{
+  position: relative;
+  font-size: 14px;
+  line-height: 0.5;
+  top: 4px;
+}
+.gray{
+  color: #657786;
+}
+.text-tweet a{
+  color: black;
+  font-weight: bold;
+}
+.text-tweet p{
+  display: inline-block;
+}
+.hashtag{
+  color: #CC3366;
+}
+.enlace{
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.enlace button{
+  border: none;
+  background: none;
+  margin-right: 40px;
+  font-size: 17px;
+  color: #657786;
+}
+.icon-flecha::before{
+  content: "\f151";
+}
+.icon-re::before{
+  content: "\f152";
+}
