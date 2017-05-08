@@ -46,6 +46,10 @@ nav ul li{
   margin-right: 20px;
   margin-bottom: 0;
 }
+.menu:hover{
+  color: #CC3366;
+  border-bottom: 3px solid #CC3366;
+}
 .nav-left span{
   margin-right: 3px;
   margin-left: 8px;
@@ -132,6 +136,10 @@ a.icon-twitter{
   position: relative;
   top: -6px;
 }
+.btn-twittear:hover{
+  background-color: #B12C58;
+  opacity: 1;
+}
 /*Icons header*/
 .icon-home::before{
   content: "\f053";
@@ -155,8 +163,9 @@ a.icon-twitter{
   content: "\f179";
 }
 section{
-  padding: 0 345px;
-  margin-top: 56px;
+  width: 100%;
+  margin-top:  56px;
+  margin-left: 70px;
 }
 article{
 }
@@ -166,18 +175,19 @@ a{
 #left{
   float: left;
   position: relative;
-  width: 290px;
+  width: 292px;
   margin-left: 20px;
 }
 #center{
   display: inline-block;
   height: 500px;
-  width: 590px;
+  width: 592px;
   margin-left: 14px;
 }
 #rigth{
   float: right;
-  width: 298px;
+  width: 280px;
+  margin-right: 150px;
 }
 #left div{
   margin-bottom: 10px;
@@ -336,6 +346,10 @@ div.item{
 .hashtag{
   color: #CC3366;
 }
+.hashtag:hover{
+  text-decoration: underline;
+  color: #CC3366;
+}
 .enlace{
   display: block;
   margin: 0 auto;
@@ -361,6 +375,7 @@ div.item{
   padding: 15px 10px;
   border: 1px solid #e1e8ed;
   padding-bottom: 20px;
+  border-radius: 5px;
 }
 .follow h3{
   margin-top: 0;
