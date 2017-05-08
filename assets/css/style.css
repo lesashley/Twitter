@@ -154,3 +154,104 @@ a.icon-twitter{
 .icon-twitter::before{
   content: "\f179";
 }
+section{
+  padding: 0 345px;
+  margin-top: 56px;
+}
+article{
+}
+a{
+  text-decoration: none;
+}
+#left{
+  float: left;
+  position: relative;
+  width: 290px;
+  margin-left: 20px;
+}
+#center{
+  display: inline-block;
+  height: 500px;
+  width: 590px;
+  margin-left: 14px;
+}
+#rigth{
+  float: right;
+  width: 298px;
+}
+#left div{
+  margin-bottom: 10px;
+}
+/*Section left*/
+.info{
+  padding-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e1e8ed;
+}
+.fondo{
+  width: 289px;
+  height: 96px;
+}
+.name{
+  margin-left: 95px;
+  line-height: 0.2;
+}
+.name h2{
+  margin: 15px 5px 2px 0;
+  display: inline-block;
+}
+.avatar{
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  top: 73px;
+  left: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.tweets{
+  margin: 10px;
+}
+.tweets p{
+  font-size: 12px;
+  letter-spacing: .02em;
+  margin-bottom: 1px;
+}
+.tweets span{
+  font-size: 18px;
+  font-weight: 500;
+  color: #cc3366;
+}
+.tweets div{
+  float: left;
+  margin-right: 25px;
+}
+.icon-protected{
+ font-size:
+}
+.icon-protected::before{
+  content: "\f096";
+}
+.trends{
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  padding: 4px 15px;
+}
+.trends h3{
+  display: inline-block;
+}
+.change{
+  font-size: 14px;
+}
+.item a{
+  font-weight: bold;
+  font-size: 15px;
+}
+.item p{
+  line-height: 0.2;
+  font-size: 13px;
+}
+div.item{
+  margin-bottom: 20px;
+}
