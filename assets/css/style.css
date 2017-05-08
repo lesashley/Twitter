@@ -356,3 +356,70 @@ div.item{
 .icon-re::before{
   content: "\f152";
 }
+/*SECTION RIGTH*/
+.follow{
+  padding: 15px 10px;
+  border: 1px solid #e1e8ed;
+  padding-bottom: 20px;
+}
+.follow h3{
+  margin-top: 0;
+  display: inline-block;
+}
+.follow img{
+  float: left;
+  border-radius: 5px;
+}
+.follow>a{
+  font-size: 14px;
+}
+.info-follower span.icon-close{
+  float: right;
+  margin-right: 4px;
+}
+.icon-close::before{
+  content: "\f045";
+}
+.follower{
+  width: 258px;
+  height: 49px;
+  margin: 10px 0;
+}
+.info-follower button{
+  display: block;
+  border: 1px solid #e1e8ed;
+  width: 88px;
+  height: 29px;
+  background: none;
+  margin: 5px 0;
+  border-radius: 3px;
+  position: relative;
+  left: 8px;
+}
+.info-follower{
+  line-height: 0.5;
+  margin-left: 15px;
+}
+.info-follower a{
+  margin-left: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.icon-add::before{
+  content: "\f175";
+  font-size: 15px;
+}
+.follower p a.color{
+  font-size: 14px;
+}
+.derechos{
+  border: 1px solid #e1e8ed;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.publicidad{
+  border: 1px solid #e1e8ed;
+  padding: 5px 10px;
+  font-size: 12px;
+}
